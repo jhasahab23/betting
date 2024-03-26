@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/online-gaming/static/css/main.a7d1f61c.css",
+    "main.js": "/online-gaming/static/js/main.0dff603b.js",
+    "static/media/landing-video.mp4": "/online-gaming/static/media/landing-video.138578958a2087bb20b0.mp4",
+    "static/media/gift-box.png": "/online-gaming/static/media/gift-box.67a26feb1ce6c3e38a25.png",
+    "static/media/adult-banner.png": "/online-gaming/static/media/adult-banner.76b21f3c10e7ba2b341c.png",
+    "static/media/adult-poster-2.png": "/online-gaming/static/media/adult-poster-2.6e5894f896adab50237a.png",
+    "static/media/second.png": "/online-gaming/static/media/second.f74719465a08ba3e31a5.png",
+    "static/media/first.png": "/online-gaming/static/media/first.32fd7dd656a16c08c9a2.png",
+    "static/media/girl1.jpg": "/online-gaming/static/media/girl1.37e06e5e88d749fdf2bf.jpg",
+    "static/media/third.png": "/online-gaming/static/media/third.cb3e808190e7c6ddda26.png",
+    "static/media/boy2.jpg": "/online-gaming/static/media/boy2.1ce15793c3f9aa501108.jpg",
+    "static/media/girl2.jpg": "/online-gaming/static/media/girl2.830caef9b2f61ca2c779.jpg",
+    "static/media/logo.png": "/online-gaming/static/media/logo.70408b3f102308d26ddf.png",
+    "static/media/boy3.jpg": "/online-gaming/static/media/boy3.58a5c7b689a54646f78d.jpg",
+    "static/media/boy1.jpg": "/online-gaming/static/media/boy1.5c4584023268f4f9457b.jpg",
+    "static/media/girl3.jpg": "/online-gaming/static/media/girl3.f5f9f78c67f162a2c844.jpg",
+    "static/media/game4.png": "/online-gaming/static/media/game4.800488f13310f0823645.png",
+    "static/media/game1.webp": "/online-gaming/static/media/game1.6e8c1a24651d96d674ec.webp",
+    "static/media/game5.webp": "/online-gaming/static/media/game5.241810d3c76864d68a14.webp",
+    "static/media/game2.webp": "/online-gaming/static/media/game2.f5b36daed0944d652471.webp",
+    "static/media/game6.webp": "/online-gaming/static/media/game6.5d680a0877f09d7387ee.webp",
+    "static/media/game3.webp": "/online-gaming/static/media/game3.7f1921681eea5ead81cd.webp",
+    "index.html": "/online-gaming/index.html",
+    "main.a7d1f61c.css.map": "/online-gaming/static/css/main.a7d1f61c.css.map",
+    "main.0dff603b.js.map": "/online-gaming/static/js/main.0dff603b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7d1f61c.css",
+    "static/js/main.0dff603b.js"
+  ]
+}
