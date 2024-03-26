@@ -1,0 +1,349 @@
+.home-page{
+    padding: 5rem 0rem;
+    width: 100%;
+    min-height: 100vh;
+}
+.home-page-landing-section{
+    /* padding: 2rem 0rem; */
+    width: 100%;
+    max-height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+.home-page-landing-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-page-landing-section::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.504);
+}
+.landing-section-content{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.landing-section-content p{
+    max-width: 600px;
+}
+.landing-section-content h1 span{
+    color: var(--golden);
+}
+.landing-section-content img{
+    width: 70px;
+}
+
+.home-page-intro-section{
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.home-page-intro-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+.home-page-intro-section-left h2 span{
+    color: var(--golden);
+}
+.home-page-intro-section-right img{
+    width: 400px;
+}
+
+
+
+.home-page-lottery-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.home-page-lottery-section-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-page-lottery-section-top p{
+    max-width: 600px;
+}
+.home-page-lottery-section-top h2{
+    color: var(--golden);
+}
+
+.game-card{
+    width: 230px;
+    height: 230px;
+    /* border: 1px solid white; */
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* box-shadow: rgba(249, 248, 248, 0.15) 0px 5px 15px 0px; */
+    background-color: rgba(237, 236, 236, 0.092);
+    backdrop-filter: blur(6px);
+    transition: 0.4s;
+}
+.game-card:hover{
+    background-color: var(--golden);
+}
+.game-card img{
+    width: 100px;
+}
+.home-page-lottery-section-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+
+.winning-information-section{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.winning-information-section-top{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.winning-information-section-top p{
+    max-width: 600px;
+}
+.winning-information-section-top h2{
+    color: var(--golden);
+}
+.winning-information-section-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.common-winner-card{
+    max-width: 500px;
+    min-width: 500px;
+    padding: 1rem 1rem;
+    background-color: var(--golden);
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: center;
+    border-radius: 6px;
+    color: black;
+}
+.common-winner-card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.insist-account-section{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.insist-account-section img{
+    width: 400px;
+}
+.insist-account-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+}
+.insist-account-section-content .btn-a{
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+.insist-account-section-content h2 span{
+    color: var(--golden);
+}
+
+
+.winner-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+.winner-section-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.winner-section-top p{
+    max-width: 600px;
+}
+.winner-section-top h2 span{
+    color: var(--golden);
+}
+.winner-section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner-card{
+    padding: 2rem 2rem;
+    width: 240px;
+    height: 270px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+.winner-card img{
+    width: 100px;
+}
+.winner-card .winner-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#first-winner{
+    background-color: var(--golden);
+    transform: scale(1.1);
+    z-index: 99;
+}
+#second-winner{
+    background-color: rgb(215, 215, 215);
+    transform: scale(0.9) translateX(15px);
+}
+#third-winner{
+    background-color: rgb(192, 74, 74);
+    transform: scale(0.9) translateX(-15px);
+
+}
+
+
+@media screen and (max-width:600px) {
+    .landing-section-content p{
+        width: 80%;
+    }
+    .landing-section-content{
+        padding: 1rem 1rem;
+    }
+    .home-page-intro-section-right img{
+        width: 300px;
+    }
+    .game-card{
+        width: 160px;
+        height: 160px;
+    }
+    .game-card img{
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .insist-account-section img{
+        width: 300px;
+    }
+    .insist-account-section-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.6rem;
+        text-align: center;
+    }
+    .home-page-intro-section-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .winner-section-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    #second-winner{
+        transform: scale(0.9) translateX(0px);
+    }
+    #third-winner{
+        transform: scale(0.9) translateX(0px);
+    }
+    .common-winner-card{
+        min-width: 400px;
+        max-width: 400px;
+    }
+}
+@media screen and (max-width:450px) {
+    .home-page-landing-section video{
+        height: 70vh;
+    }
+    .common-winner-card{
+        min-width: 330px;
+        max-width: 330px;
+    }
+    .common-winner-card h5{
+        font-size: 12px;
+    }
+    .common-winner-card-price h4{
+        font-size: 10px;
+    }
+    .game-card{
+        width: 100px;
+        height: 100px;
+    }
+    .game-card img{
+        width: 40px;
+    }
+    .game-card h3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .insist-account-section img{
+        width: 280px;
+    }
+    .winning-information-section{
+        padding: 2rem 1rem;
+    }
+    .common-winner-card img{
+        width: 30px;
+        height: 30px;
+    }
+    .common-winner-card{
+        min-width: 300px;
+        max-width: 300px;
+    }
+}

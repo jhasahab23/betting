@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --golden : #eeca28;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  scroll-behavior: smooth;
+  font-size: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #0f1132;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 5.5rem;
+}
+h2{
+  font-size: 3rem;
+}
+p{
+  font-size: 11px;
+}
+.btn-a{
+  padding: 0.6rem 1.2rem;
+  background-color: var(--golden);
+  border-radius: 6px;
+  cursor: pointer;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.input-field{
+  width: 330px;
+  border: none;
+  outline: none;
+  padding: 0.4rem 0.4rem;
+  border-radius: 4px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (max-width:600px) {
+  h1{
+    font-size: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+  h2{
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width:450px) {
+  h2{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 10px;
   }
 }
