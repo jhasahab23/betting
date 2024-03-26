@@ -7,10 +7,10 @@ import RegistrationPage from './pages/RegistrationPage';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/online-gaming'>
         <Navbar/>
         <Routes>
-            <Route path='/' element={<HomePage/>}/>
+            <Route exact path='/online-gaming' element={<HomePage/>}/>
             <Route path='/registration' element={<RegistrationPage/>}/>
         </Routes>
       </BrowserRouter>
