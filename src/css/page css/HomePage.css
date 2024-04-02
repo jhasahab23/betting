@@ -269,6 +269,9 @@
     .game-card img{
         width: 80px;
     }
+    /* .home-page{
+        padding: 0 0;
+    } */
 }
 
 @media screen and (max-width:550px) {

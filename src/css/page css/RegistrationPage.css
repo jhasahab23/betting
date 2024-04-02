@@ -38,3 +38,15 @@
     color: var(--golden);
     text-decoration: underline;
 }
+
+@media screen and (max-width:420px) {
+    .registration-page-landing-section{
+        justify-content: center;
+    }
+    .registration-form{
+        padding: 1rem 1rem;
+    }
+    .registration-page-landing-section-right img{
+        width: 300px;
+    }
+}

@@ -1,8 +1,10 @@
-import { BrowserRouter, Route, Routes , HashRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
-import RegistrationPage from './pages/RegistrationPage';
+import RegistrationPage from "./pages/RegistrationPage"
+import ActivityPage from './pages/ActivityPage';
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <Navbar/>
         <Routes>
             <Route exact path='/' element={<HomePage/>}/>
-            <Route path='/registration' element={<RegistrationPage/>}/>
+            <Route exact path='/activity' element={<ActivityPage/>}/>
+            <Route exact path='/registration' element={<RegistrationPage/>}/>
         </Routes>
       </BrowserRouter>
     </>

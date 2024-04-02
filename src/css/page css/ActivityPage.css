@@ -1,0 +1,151 @@
+.activity-page{
+    width: 100%;
+    min-height: 100vh;
+}
+.activity-page-header{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../images/activityPageLandingBg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 3rem;
+}
+.activity-page-header hr{
+    width: 80%;
+}
+.activy-page-header-bottom{
+    display: flex;
+    gap: 1.5rem;
+}
+.activity-small-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.287); */
+    /* backdrop-filter: blur(6px); */
+}
+.activity-small-icon:nth-child(1){
+    background-color: palevioletred;
+}
+.activity-small-icon:nth-child(2){
+    background-color: rgb(69, 140, 215);
+}
+.activity-small-icon:nth-child(3){
+    background-color: rgb(224, 105, 69);
+}
+.activity-small-icon:nth-child(4){
+    background-color: rgb(81, 230, 168);
+}
+.activity-small-icon:hover{
+    background-color: var(--golden);
+}
+.activity-page-landing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 9rem;
+}
+.activity-page-landing-right img{
+    width: 400px;
+}
+.activity-page-landing-left{
+    max-width: 500px;
+}
+.activity-page-landing-left h1{
+    font-size: 4rem;
+}
+.activity-page-landing-left h1 span{
+    color: var(--golden);
+}
+.activity-page-landing-left .btn-a{
+    display: inline-block;
+    margin-top:2rem;
+}
+.activity-page-second-section{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.activity-page-second-section-card{
+    width: 350px;
+    height: 400px;
+    background: linear-gradient(rgba(255, 255, 255, 0.644) 10% , rgba(255, 255, 255, -1));
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+.activity-page-second-section-card img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+}
+.activity-page-second-section-card h3{
+    padding: 1rem 0;
+    color: var(--golden);
+}
+.activity-page-second-section-card p{
+    padding: 0rem 1rem;
+}
+.first-deposit-banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.first-deposit-banner img{
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+    border-radius: 6px;
+}
+.offer-section{
+    width: 100%;
+    padding: 3rem 3rem;
+    background-color: #0f1132;
+}
+
+@media screen and (max-width:750px) {
+    .activity-page-second-section-card{
+        width: 270px;
+        height: 300px;
+    }
+    .activity-page-second-section-card img{
+        width:100%;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:450px){
+    .activity-page-header{
+        justify-content: center;
+        align-items: center;
+    }
+    .activity-page-landing-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .activity-page-landing-right img{
+        width: 300px;
+    }
+    .activity-page-landing-left h1{
+        font-size: 2rem;
+    }
+}

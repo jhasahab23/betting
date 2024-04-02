@@ -13,7 +13,7 @@ import boy3 from "../images/boy3.jpg"
 import girl1 from "../images/girl1.jpg"
 import girl2 from "../images/girl2.jpg"
 import girl3 from "../images/girl3.jpg"
-import landingVideo from "../videos/landing-video.mp4"
+import landingVideo from "../videos/landing-video-2.mp4"
 import logo from "../images/logo.png"
 import adultPoster from "../images/adult-banner.png"
 import firstWinner from "../images/first.png"
@@ -28,7 +28,7 @@ export default function HomePage() {
           <div className="landing-section-content">
             <img src={logo} alt="" />
             <h3>Welcome To</h3>
-            <h1><span>AK47</span> Games</h1>
+            <h1><span>BALAJI</span>BET</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore excepturi impedit harum cupiditate doloribus distinctio eos, similique cumque provident molestiae sint numquam repellat a adipisci, sapiente iusto debitis quo quasi architecto quos consequuntur reiciendis. Fuga deleniti voluptatum quae sit voluptatibus.</p>
           </div>
         </div>
