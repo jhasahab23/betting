@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/online-gaming/static/css/main.a8b27101.css",
-    "main.js": "/online-gaming/static/js/main.04fc56d2.js",
+    "main.css": "/online-gaming/static/css/main.fb5a4e61.css",
+    "main.js": "/online-gaming/static/js/main.992479d9.js",
     "static/media/landing-video-2.mp4": "/online-gaming/static/media/landing-video-2.80b3d3dfd3ae7c7c0340.mp4",
-    "static/media/first-deposit-banner.png": "/online-gaming/static/media/first-deposit-banner.b5fbca4fd55ea75396f2.png",
+    "static/media/first-deposit-banner.png": "/online-gaming/static/media/first-deposit-banner.be1c4d4933583a52f8e7.png",
     "static/media/bonus-card-img.png": "/online-gaming/static/media/bonus-card-img.606797d284550daebaf0.png",
     "static/media/gift-card-img.png": "/online-gaming/static/media/gift-card-img.68c655367817b00ed916.png",
     "static/media/gift-box.png": "/online-gaming/static/media/gift-box.67a26feb1ce6c3e38a25.png",
     "static/media/adult-banner.png": "/online-gaming/static/media/adult-banner.76b21f3c10e7ba2b341c.png",
-    "static/media/activityPageLandingBg.png": "/online-gaming/static/media/activityPageLandingBg.46cc6f48d8267a1e9bf9.png",
     "static/media/adult-poster-2.png": "/online-gaming/static/media/adult-poster-2.6e5894f896adab50237a.png",
     "static/media/second.png": "/online-gaming/static/media/second.f74719465a08ba3e31a5.png",
     "static/media/first.png": "/online-gaming/static/media/first.32fd7dd656a16c08c9a2.png",
@@ -28,11 +27,11 @@
     "static/media/game6.webp": "/online-gaming/static/media/game6.5d680a0877f09d7387ee.webp",
     "static/media/game3.webp": "/online-gaming/static/media/game3.7f1921681eea5ead81cd.webp",
     "index.html": "/online-gaming/index.html",
-    "main.a8b27101.css.map": "/online-gaming/static/css/main.a8b27101.css.map",
-    "main.04fc56d2.js.map": "/online-gaming/static/js/main.04fc56d2.js.map"
+    "main.fb5a4e61.css.map": "/online-gaming/static/css/main.fb5a4e61.css.map",
+    "main.992479d9.js.map": "/online-gaming/static/js/main.992479d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8b27101.css",
-    "static/js/main.04fc56d2.js"
+    "static/css/main.fb5a4e61.css",
+    "static/js/main.992479d9.js"
   ]
 }
