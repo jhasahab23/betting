@@ -14,27 +14,31 @@ export default function ActivityPage() {
             <div className="activity-page-header">
                 <div className="activity-page-landing">
                     <div className="activity-page-landing-left">
-                        <h1>Your <span>Activity</span></h1>
+                        <h1><span>Activity</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, minus. Repellat quam asperiores explicabo praesentium doloribus rerum sed accusantium sint tempora deserunt perferendis, odio numquam ullam voluptate unde ad! Asperiores!</p>
                         <a href="#" className="btn-a">Explore Now</a>
                     </div>
-                    <div className="activity-page-landing-right">
+                    {/* <div className="activity-page-landing-right">
                         <img src={landingImg} alt="" />
-                    </div>
+                    </div> */}
                 </div>
-                <hr />
+                {/* <hr /> */}
                 <div className="activy-page-header-bottom">
                     <div className="activity-small-icon">
                         <EmojiEventsIcon/>
+                        <p>Activity Reward</p>
                     </div>
                     <div className="activity-small-icon">
                         <GroupAddIcon/>
+                        <p>Invitation Bonus</p>
                     </div>
                     <div className="activity-small-icon">
                         <PaidIcon/>
+                        <p>Betting Rebate</p>
                     </div>
                     <div className="activity-small-icon">
                         <SavingsIcon/>
+                        <p>Super Jackpot</p>
                     </div>
                 </div>
             </div>
