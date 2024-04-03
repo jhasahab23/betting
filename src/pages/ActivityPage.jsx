@@ -20,6 +20,7 @@ import mg8 from "../images/mg8.png"
 import mg9 from "../images/mg9.png"
 import mg10 from "../images/mg10.png"
 import WidgetsIcon from '@mui/icons-material/Widgets';
+import TrendingGames from '../components/TrendingGames';
 export default function ActivityPage() {
     const [lotteryGames , setLotteryGames] = useState(true)
     const [miniGames , setMiniGames] = useState(false)
@@ -73,7 +74,8 @@ export default function ActivityPage() {
             <h5>Welcome to 91 CLUB! We have a variety of games, promos and bonus for you to enjoy, so</h5>
             <a href="#" className="btn-a">Details</a>
         </div>
-        <div className="multigame-section">
+
+        {/* <div className="multigame-section">
             <div className="multigame-section-left">
                 <div className="multigame-section-left-card" onClick={displayLotteryGames}>
                     <img src={game1} alt="" />
@@ -326,7 +328,11 @@ export default function ActivityPage() {
                     <h3>View All</h3>
                 </div>
             </div>}
-        </div>
+        </div> */}
+
+        <TrendingGames/>
+
+
         <WinningInformationSection/>
         <WinnerToday/>
        </>
