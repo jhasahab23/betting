@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link to="" className='link-a'>Home</Link>
           <Link to="/activity" className='link-a'>Activity</Link>
           <Link to="" className='link-a'>Promotion</Link>
-          <Link to="" className='link-a'>Wallet</Link>
+          <Link to="/wallet" className='link-a'>Wallet</Link>
           <Link to="/registration" className='link-a btn-a'>Account</Link>
         </div>
         <a href='#' className="call-btn">
@@ -39,7 +39,7 @@ export default function Navbar() {
           <DiamondIcon className='bottom-navbar-icon'/>
           <p>Promotion</p>
         </Link>
-        <Link to="" className="bottom-navbar-items">
+        <Link to="/wallet" className="bottom-navbar-items">
           <AccountBalanceWalletIcon className='bottom-navbar-icon'/>
           <p>Wallet</p>
         </Link>

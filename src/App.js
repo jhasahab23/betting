@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
 import RegistrationPage from "./pages/RegistrationPage"
 import ActivityPage from './pages/ActivityPage';
+import WalletPage from './pages/WalletPage';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
             <Route exact path='/' element={<HomePage/>}/>
             <Route exact path='/activity' element={<ActivityPage/>}/>
+            <Route exact path='/wallet' element={<WalletPage/>}/>
             <Route exact path='/registration' element={<RegistrationPage/>}/>
         </Routes>
       </BrowserRouter>

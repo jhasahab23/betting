@@ -8,13 +8,6 @@
     gap: 2rem;
     width: 100%;
     min-height: 100vh;
-    /* background: url("../../images/activityPageLandingBg.png");
-    background-size: cover;
-    background-position: center; */
-    /* padding: 3rem 3rem; */
-}
-.activity-page-header hr{
-    width: 80%;
 }
 .activy-page-header-bottom{
     display: flex;
@@ -34,8 +27,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(255, 255, 255, 0.287); */
-    /* backdrop-filter: blur(6px); */
 }
 .activity-small-icon:nth-child(1){
     background-color: palevioletred;
@@ -155,5 +146,17 @@
     }
     .activity-page-landing-left h1{
         font-size: 2rem;
+    }
+    .activity-small-icon{
+        width: 70px;
+        height: 70px;
+        transform: scale(0.8);
+        font-size: 8px;
+    }
+    .activity-page-landing{
+        padding: 3rem 3rem;
+    }
+    .activity-page-header{
+        min-height: none;
     }
 }
