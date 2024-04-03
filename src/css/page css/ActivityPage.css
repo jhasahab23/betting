@@ -1,162 +1,150 @@
-.activity-page{
-    width: 100%;
-    min-height: 100vh;
+.avtivity-page-header{
+    padding-top: 4rem;
 }
-.activity-page-header{
+.avtivity-page-header img{
+    width: 100%;
+}
+.notification-box{
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: var(--golden);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 100%;
-    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
-.activy-page-header-bottom{
+.notification-box .btn-a{
+    background-color: white;
+}
+.multigame-section{
+    padding: 2rem 2rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
-.activity-small-icon{
+.multigame-section-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.multigame-section-left-card{
     width: 100px;
     height: 100px;
+    background-color: var(--golden);
     border-radius: 6px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
-    padding: 1rem 1rem;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    padding: 1rem 1rem;
 }
-.activity-small-icon:nth-child(1){
-    background-color: palevioletred;
+.multigame-section-left-card img{
+    width: 50px;
+    height: 50px;
 }
-.activity-small-icon:nth-child(2){
-    background-color: rgb(69, 140, 215);
+.multigame-section-right{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
 }
-.activity-small-icon:nth-child(3){
-    background-color: rgb(224, 105, 69);
-}
-.activity-small-icon:nth-child(4){
-    background-color: rgb(81, 230, 168);
-}
-.activity-small-icon:hover{
+.multigame-section-right-card{
+    width: 500px;
+    padding: 2rem 2rem;
+    height: 140px;
+    border-radius: 8px;
     background-color: var(--golden);
-}
-.activity-page-landing{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap;
-    padding: 5rem 4rem;
-    padding-top: 9rem;
-    background: linear-gradient(to right bottom , palevioletred 80% , white);
 }
-/* .activity-page-landing-right img{
-    width: 400px;
-} */
-.activity-page-landing-left{
-    max-width: 500px;
+.multigame-section-right-card-img img{
+    width: 140px;
+    height: 140px;
 }
-.activity-page-landing-left h1{
-    font-size: 4rem;
+.multigame-section-right-card-content h3{
+    padding-bottom: 2rem;
+    font-size: 2rem;
 }
-.activity-page-landing-left h1 span{
-    color: var(--golden);
-}
-.activity-page-landing-left .btn-a{
-    display: inline-block;
-    margin-top:2rem;
-}
-.activity-page-second-section{
-    padding: 2rem 2rem;
+.view-all-btn{
     display: flex;
-    justify-content:space-evenly;
-    gap: 3rem;
-    flex-wrap: wrap;
-}
-.activity-page-second-section-card{
-    width: 350px;
-    height: 400px;
-    background: linear-gradient(rgba(255, 255, 255, 0.644) 10% , rgba(255, 255, 255, -1));
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
-}
-.activity-page-second-section-card img{
-    width:100%;
-    height: 250px;
-    object-fit: cover;
-}
-.activity-page-second-section-card h3{
-    padding: 1rem 0;
-    color: var(--golden);
-}
-.activity-page-second-section-card p{
-    padding: 0rem 1rem;
-}
-.first-deposit-banner{
-    width: 100%;
-    display: flex;
+    width: 300px;
     justify-content: center;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    border: 2px solid var(--golden);
+    cursor: pointer;
 }
-.first-deposit-banner img{
-    width: 100%;
-    /* height: 400px; */
-    object-fit: cover;
-    border-radius: 6px;
-}
-.offer-section{
-    width: 100%;
-    padding: 3rem 3rem;
-    background-color: #0f1132;
+.view-all-btn:hover{
+    background-color: var(--golden);
 }
 
-@media screen and (max-width:750px) {
-    .activity-page-second-section-card{
-        width: 270px;
-        height: 300px;
+@media screen and (max-width:650px) {
+    .multigame-section-right-card{
+        width: 350px;
+        padding: 2rem 2rem;
     }
-    .activity-page-second-section-card img{
-        width:100%;
-        height: 150px;
-        object-fit: cover;
+    .multigame-section-right-card-content h3{
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
     }
 }
-@media screen and (max-width:450px){
-    .activity-page-header{
-        justify-content: center;
-        align-items: center;
+
+
+@media screen and (max-width:500px) {
+    .notification-box h5{
+        font-size: 10px;
     }
-    .activity-page-landing-left{
+    .notification-box .btn-a{
+        font-size: 12px;
+    }
+    .multigame-section-right-card{
+        width: 250px;
+        height: auto;
+        padding: 2rem 2rem;
         display: flex;
         flex-direction: column;
+        gap: 1rem;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .activity-page-landing-right img{
-        width: 300px;
+    .multigame-section-right .view-all-btn{
+        font-size: 14px;
+        padding: 0.5rem;
+        width: 150px;
     }
-    .activity-page-landing-left h1{
-        font-size: 2rem;
+    .multigame-section-right-card-img img{
+        width: 100px;
+        height: 100px;
     }
-    .activity-small-icon{
-        width: 70px;
-        height: 70px;
-        transform: scale(0.8);
+    .multigame-section-left-card{
+        width: 60px;
+        height: 60px;
+    }
+    .multigame-section-left-card img{
+        width: 30px;
+        height: 30px;
+    }
+    .multigame-section-left-card h6{
         font-size: 8px;
     }
-    .activity-page-landing{
-        padding: 3rem 3rem;
+}
+@media screen and (max-width:400px) {
+    .multigame-section-right-card{
+       padding: 1rem 1rem;
+       width: 200px;
     }
-    .activity-page-header{
-        min-height: none;
+}
+@media screen and (max-width:350px) {
+    .notification-box h5{
+        font-size: 8px;
+    }
+    .notification-box .btn-a{
+        font-size: 8px;
     }
 }

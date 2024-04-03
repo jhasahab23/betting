@@ -16,9 +16,9 @@ import girl3 from "../images/girl3.jpg"
 import landingVideo from "../videos/landing-video-2.mp4"
 import logo from "../images/logo.png"
 import adultPoster from "../images/adult-banner.png"
-import firstWinner from "../images/first.png"
-import secondWinner from "../images/second.png"
-import thirdWinner from "../images/third.png"
+
+import WinningInformationSection from '../components/WinningInformationSection'
+import WinnerToday from '../components/WinnerToday'
 export default function HomePage() {
   return (
     <div className='home-page'>
@@ -85,68 +85,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="winning-information-section">
-          <div className="winning-information-section-top">
-            <h2>Winning Information</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non porro dicta, eaque eius cum laboriosam quos ullam recusandae saepe quae corporis, mollitia obcaecati consequuntur dolorem deserunt repellendus quia quidem libero!</p>
-          </div>
-          <div className="winning-information-section-bottom">
-            <div className="common-winner-card">
-              <img src={girl1} alt="" />
-              <h5>riya****2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-            <div className="common-winner-card">
-              <img src={boy1} alt="" />
-              <h5>sach***2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-            <div className="common-winner-card">
-              <img src={girl2} alt="" />
-              <h5>jyot****2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-            <div className="common-winner-card">
-              <img src={boy2} alt="" />
-              <h5>same****2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-            <div className="common-winner-card">
-              <img src={girl3} alt="" />
-              <h5>gayat****2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-            <div className="common-winner-card">
-              <img src={boy3} alt="" />
-              <h5>chun****2303</h5>
-              <img src={game3} alt="" />
-              <div className="common-winner-card-price">
-                <h4>Winning Price</h4>
-                <h6>Rs. 12,99900/-</h6>
-              </div>
-            </div>
-          </div>
-        </div>
+        <WinningInformationSection/>
 
         <div className="insist-account-section">
           <img src={adultPoster} alt="" />
@@ -157,32 +96,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="winner-section">
-          <div className="winner-section-top">
-            <h2>Top <span>Gainers</span> Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim natus facilis voluptates laudantium voluptatum necessitatibus perspiciatis nam nihil doloremque fugiat qui debitis corporis officia velit, repudiandae sed aspernatur dignissimos eaque.</p>
-          </div>
-          <div className="winner-section-bottom">
-            <div className="winner-card" id="second-winner">
-            <img src={secondWinner} alt="" />
-              <img src={girl2} alt="" className='winner-image' />
-              <h3>No. 2</h3>
-              <h4>Rs. 95,000/-</h4>
-            </div>
-            <div className="winner-card" id="first-winner">
-              <img src={firstWinner} alt="" />
-              <img src={boy2} alt="" className='winner-image' />
-              <h3>No. 1</h3>
-              <h4>Rs. 99,000/-</h4>
-            </div>
-            <div className="winner-card" id="third-winner">
-            <img src={thirdWinner} alt="" />
-              <img src={girl3} alt="" className='winner-image' />
-              <h3>No. 3</h3>
-              <h4>Rs. 89,000/-</h4>
-            </div>
-          </div>
-        </div>
+        <WinnerToday/>
+        
     </div>
   )
 }
