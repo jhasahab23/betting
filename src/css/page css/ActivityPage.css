@@ -1,150 +1,113 @@
 .avtivity-page-header{
-    padding-top: 4rem;
-}
-.avtivity-page-header img{
-    width: 100%;
-}
-.notification-box{
-    padding: 1rem 2rem;
-    width: 100%;
-    background-color: var(--golden);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 6rem 3rem;
+    padding-top: 10rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--golden);
+}
+.avtivity-page-header p{
+    max-width: 500px;
+}
+.avtivity-page-header h2{
+    color: black;
+}
+.activity-page-second-section{
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem 2rem;
 }
-.notification-box .btn-a{
-    background-color: white;
+.activity-page-second-section-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
 }
-.multigame-section{
+.activity-page-second-section-card-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: var(--golden);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activity-page-second-section-card-icon .activity-card-icon{
+    font-size: 40px;
+}
+.activity-page-second-section-card:nth-child(1) .activity-page-second-section-card-icon{
+    background-color: rgb(18, 148, 223);
+}
+.activity-page-second-section-card:nth-child(2) .activity-page-second-section-card-icon{
+    background-color: rgb(45, 223, 18);
+}
+.activity-page-second-section-card:nth-child(3) .activity-page-second-section-card-icon{
+    background-color: rgb(223, 18, 192);
+}
+.activity-page-second-section-card:nth-child(4) .activity-page-second-section-card-icon{
+    background-color: rgb(155, 18, 223);
+}
+
+
+.activity-page-third-section{
     padding: 2rem 2rem;
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
+    flex-wrap: wrap;
 }
-.multigame-section-left{
+.activity-page-third-section-card{
     display: flex;
     flex-direction: column;
-    gap: 1.4rem;
-}
-.multigame-section-left-card{
-    width: 100px;
-    height: 100px;
-    background-color: var(--golden);
+    gap: 1rem;
     border-radius: 6px;
+    overflow: hidden;
+    width: 400px;
     cursor: pointer;
+}
+.activity-page-third-section-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.banner-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 1rem 1rem;
-}
-.multigame-section-left-card img{
-    width: 50px;
-    height: 50px;
-}
-.multigame-section-right{
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-    align-items: center;
-}
-.multigame-section-right-card{
-    width: 500px;
+    gap: 2.5rem;
     padding: 2rem 2rem;
-    height: 140px;
-    border-radius: 8px;
+}
+.banner-card{
+    width: 100%;
+    /* height: 450px; */
+    overflow: hidden;
+    border-radius: 6px;
     background-color: var(--golden);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
-.multigame-section-right-card-img img{
-    width: 140px;
-    height: 140px;
-}
-.multigame-section-right-card-content h3{
-    padding-bottom: 2rem;
-    font-size: 2rem;
-}
-.view-all-btn{
-    display: flex;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 1rem;
-    border-radius: 20px;
-    border: 2px solid var(--golden);
+    color: white;
     cursor: pointer;
 }
-.view-all-btn:hover{
-    background-color: var(--golden);
+.banner-card img{
+    width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
+}
+.banner-card h3{
+    padding: 1rem 1rem;
 }
 
-@media screen and (max-width:650px) {
-    .multigame-section-right-card{
-        width: 350px;
-        padding: 2rem 2rem;
+@media screen and (max-width:450px) {
+    .activity-page-second-section-card-icon{
+        width: 40px;
+        height: 40px;
+        max-width: 40px;
     }
-    .multigame-section-right-card-content h3{
-        font-size: 1.4rem;
-        padding-bottom: 1rem;
-    }
-}
-
-
-@media screen and (max-width:500px) {
-    .notification-box h5{
-        font-size: 10px;
-    }
-    .notification-box .btn-a{
-        font-size: 12px;
-    }
-    .multigame-section-right-card{
-        width: 250px;
-        height: auto;
-        padding: 2rem 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .multigame-section-right .view-all-btn{
-        font-size: 14px;
-        padding: 0.5rem;
-        width: 150px;
-    }
-    .multigame-section-right-card-img img{
-        width: 100px;
-        height: 100px;
-    }
-    .multigame-section-left-card{
-        width: 60px;
-        height: 60px;
-    }
-    .multigame-section-left-card img{
-        width: 30px;
-        height: 30px;
-    }
-    .multigame-section-left-card h6{
-        font-size: 8px;
-    }
-}
-@media screen and (max-width:400px) {
-    .multigame-section-right-card{
-       padding: 1rem 1rem;
-       width: 200px;
-    }
-}
-@media screen and (max-width:350px) {
-    .notification-box h5{
-        font-size: 8px;
-    }
-    .notification-box .btn-a{
-        font-size: 8px;
+    .activity-page-second-section-card-icon .activity-card-icon{
+        font-size: 25px;
     }
 }
