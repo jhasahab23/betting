@@ -1,30 +1,26 @@
 {
   "files": {
-    "main.css": "/online-gaming/static/css/main.1ece8e11.css",
-    "main.js": "/online-gaming/static/js/main.f73b3cce.js",
+    "main.css": "/online-gaming/static/css/main.4095c9a0.css",
+    "main.js": "/online-gaming/static/js/main.b8dde3c6.js",
     "static/media/landing-video-2.mp4": "/online-gaming/static/media/landing-video-2.80b3d3dfd3ae7c7c0340.mp4",
     "static/media/first-deposit-banner.png": "/online-gaming/static/media/first-deposit-banner.be1c4d4933583a52f8e7.png",
+    "static/media/bonus-card-img.png": "/online-gaming/static/media/bonus-card-img.606797d284550daebaf0.png",
+    "static/media/gift-card-img.png": "/online-gaming/static/media/gift-card-img.68c655367817b00ed916.png",
     "static/media/gift-box.png": "/online-gaming/static/media/gift-box.67a26feb1ce6c3e38a25.png",
+    "static/media/bx1.png": "/online-gaming/static/media/bx1.8ca833f2c4a2e30e755b.png",
+    "static/media/bx4.png": "/online-gaming/static/media/bx4.4fefa8c5a7343cf4ee59.png",
+    "static/media/bx3.png": "/online-gaming/static/media/bx3.c126e91537257c26b2c2.png",
     "static/media/adult-banner.png": "/online-gaming/static/media/adult-banner.76b21f3c10e7ba2b341c.png",
+    "static/media/bx2.png": "/online-gaming/static/media/bx2.672efe9f86c46e3151b1.png",
     "static/media/adult-poster-2.png": "/online-gaming/static/media/adult-poster-2.6e5894f896adab50237a.png",
     "static/media/second.png": "/online-gaming/static/media/second.f74719465a08ba3e31a5.png",
     "static/media/first.png": "/online-gaming/static/media/first.32fd7dd656a16c08c9a2.png",
-    "static/media/mg10.png": "/online-gaming/static/media/mg10.4c2fb5b064899cd5c32f.png",
-    "static/media/mg1.png": "/online-gaming/static/media/mg1.b9b4465c53e1c2f0cf5e.png",
     "static/media/girl1.jpg": "/online-gaming/static/media/girl1.37e06e5e88d749fdf2bf.jpg",
-    "static/media/mg2.png": "/online-gaming/static/media/mg2.44466c0e8838a7b50a76.png",
-    "static/media/mg9.png": "/online-gaming/static/media/mg9.d9b33774cdf82deb5a5a.png",
-    "static/media/mg8.png": "/online-gaming/static/media/mg8.a591c258e522a6a9d711.png",
     "static/media/third.png": "/online-gaming/static/media/third.cb3e808190e7c6ddda26.png",
-    "static/media/mg3.png": "/online-gaming/static/media/mg3.33ccfe70e8b8f579340f.png",
     "static/media/game1.png": "/online-gaming/static/media/game1.6d52e46fb9b606610a51.png",
     "static/media/boy2.jpg": "/online-gaming/static/media/boy2.1ce15793c3f9aa501108.jpg",
-    "static/media/mg7.png": "/online-gaming/static/media/mg7.b09bee6abea49b36d1d0.png",
-    "static/media/mg6.png": "/online-gaming/static/media/mg6.a1e6def6023d9cd1377d.png",
     "static/media/logo.png": "/online-gaming/static/media/logo.36392a39d9554177aeff.png",
     "static/media/girl2.jpg": "/online-gaming/static/media/girl2.830caef9b2f61ca2c779.jpg",
-    "static/media/mg4.png": "/online-gaming/static/media/mg4.9c1e727f1af59370d3eb.png",
-    "static/media/mg5.png": "/online-gaming/static/media/mg5.4c0f65e6e406af014026.png",
     "static/media/boy3.jpg": "/online-gaming/static/media/boy3.58a5c7b689a54646f78d.jpg",
     "static/media/game2.png": "/online-gaming/static/media/game2.786635f923c20cbc4a0f.png",
     "static/media/game5.png": "/online-gaming/static/media/game5.19e1db48f8cddefbbee1.png",
@@ -39,11 +35,11 @@
     "static/media/game3.webp": "/online-gaming/static/media/game3.7f1921681eea5ead81cd.webp",
     "static/media/game6.png": "/online-gaming/static/media/game6.120da78ef80277a0fdc2.png",
     "index.html": "/online-gaming/index.html",
-    "main.1ece8e11.css.map": "/online-gaming/static/css/main.1ece8e11.css.map",
-    "main.f73b3cce.js.map": "/online-gaming/static/js/main.f73b3cce.js.map"
+    "main.4095c9a0.css.map": "/online-gaming/static/css/main.4095c9a0.css.map",
+    "main.b8dde3c6.js.map": "/online-gaming/static/js/main.b8dde3c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ece8e11.css",
-    "static/js/main.f73b3cce.js"
+    "static/css/main.4095c9a0.css",
+    "static/js/main.b8dde3c6.js"
   ]
 }
