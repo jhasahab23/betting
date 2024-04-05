@@ -15,8 +15,8 @@ export default function ActivityPage() {
     return (
        <>
         <div className="avtivity-page-header">
-            <h2>BalajiBet</h2>
-            <h3>Activity</h3>
+            {/* <h2>BalajiBet</h2> */}
+            <h2>Activity</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sit nisi eveniet repellat commodi, accusamus unde distinctio perspiciatis dolores! Autem doloremque corrupti error inventore, corporis at atque explicabo! Est, voluptas?</p>
         </div>
         <div className="activity-page-second-section">
@@ -50,12 +50,12 @@ export default function ActivityPage() {
             <div className="activity-page-third-section-card">
                 <img src={giftCard} alt="" />
                 <h3>Gifts</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis assumenda veniam ipsum laborum quidem suscipit ex quam accusamus ducimus corporis, ratione nihil nemo quas aut fugit pariatur ipsam quaerat. Nostrum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis assumenda veniam ipsum laborum quidem suscipit ex quam accusamus ducimus </p>
             </div>
             <div className="activity-page-third-section-card">
                 <img src={bonusCard} alt="" />
                 <h3>Attendance Bonus</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis assumenda veniam ipsum laborum quidem suscipit ex quam accusamus ducimus corporis, ratione nihil nemo quas aut fugit pariatur ipsam quaerat. Nostrum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis assumenda veniam ipsum laborum quidem suscipit ex quam accusamus ducimus corporis</p>
             </div>
         </div>
 

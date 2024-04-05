@@ -82,6 +82,7 @@
     align-items: center;
     gap: 2.5rem;
     padding: 2rem 2rem;
+    padding-bottom: 7rem;
 }
 .banner-card{
     width: 100%;
@@ -101,13 +102,77 @@
     padding: 1rem 1rem;
 }
 
+@media screen and (max-width:900px) {
+    .activity-page-third-section-card{
+        width: 300px;
+    }
+    .avtivity-page-third-section-card img{
+        height: 200px;
+    }
+}
+@media screen and (max-width:700px) {
+    .activity-page-third-section-card{
+        width: 200px;
+    }
+    .avtivity-page-third-section .avtivity-page-third-section-card p{
+        font-size: 8px;
+    }
+    .activity-page-third-section-card img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:500px) {
+    .activity-page-third-section{
+        padding: 0rem 0rem;
+        gap: 0.5rem;
+    }
+    .activity-page-third-section-card p{
+        font-size: 8px;
+    }
+}
 @media screen and (max-width:450px) {
+    .activity-page-second-section{
+        padding: 2rem 1rem;
+    }
     .activity-page-second-section-card-icon{
-        width: 40px;
-        height: 40px;
-        max-width: 40px;
+        width: 30px;
+        height: 30px;
+        /* max-width: 40px; */
+    }
+    .activity-page-second-section-card h6{
+        font-size: 8px;
+        font-weight: lighter;
     }
     .activity-page-second-section-card-icon .activity-card-icon{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .banner-card h3{
+        /* font-weight: lighter; */
+        font-size: 10px;
+    }
+    .avtivity-page-header{
+        padding: 2rem 2rem;
+        padding-top: 8rem;
+    }
+    .activity-page-third-section-card{
+        width: 150px;
+        gap: 0.4rem;
+    }
+    .activity-page-third-section-card p{
+        font-size: 6px;
+    }
+    .activity-page-third-section-card img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .activity-page-third-section h3{
+        font-size: 12px;
+    }
+    .banner-section{
+        padding: 2rem 0.7rem;
+        padding-bottom: 8rem;
     }
 }
