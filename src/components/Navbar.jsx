@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="navbar-right">
           <Link to="" className='link-a'>Home</Link>
           <Link to="/activity" className='link-a'>Activity</Link>
-          <Link to="" className='link-a'>Promotion</Link>
+          <Link to="/promotion" className='link-a'>Promotion</Link>
           <Link to="/wallet" className='link-a'>Wallet</Link>
           <Link to="/registration" className='link-a btn-a'>Account</Link>
         </div>
@@ -35,7 +35,7 @@ export default function Navbar() {
           <EmojiEventsIcon className='bottom-navbar-icon'/>
           <p>Activity</p>
         </Link>
-        <Link to="" className="bottom-navbar-items">
+        <Link to="/promotion" className="bottom-navbar-items">
           <DiamondIcon className='bottom-navbar-icon'/>
           <p>Promotion</p>
         </Link>

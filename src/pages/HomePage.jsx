@@ -22,6 +22,7 @@ export default function HomePage() {
           </div>
         </div>
 
+      <TrendingGames/>
         <div className="home-page-intro-section">
           <div className="home-page-intro-section-left">
             <h2>The Best Platform To Earn <span> Money!!</span></h2>
@@ -33,7 +34,6 @@ export default function HomePage() {
           </div>
         </div>
 
-      <TrendingGames/>
 
         <WinningInformationSection/>
 

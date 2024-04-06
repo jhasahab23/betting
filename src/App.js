@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import RegistrationPage from "./pages/RegistrationPage"
 import ActivityPage from './pages/ActivityPage';
 import WalletPage from './pages/WalletPage';
+import PromotionPage from './pages/PromotionPage';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route exact path='/' element={<HomePage/>}/>
             <Route exact path='/activity' element={<ActivityPage/>}/>
             <Route exact path='/wallet' element={<WalletPage/>}/>
+            <Route exact path='/promotion' element={<PromotionPage/>}/>
             <Route exact path='/registration' element={<RegistrationPage/>}/>
         </Routes>
       </BrowserRouter>

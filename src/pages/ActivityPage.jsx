@@ -64,7 +64,7 @@ export default function ActivityPage() {
                 <img src={depositBanner} alt="" />
                 <h3>New Member first deposit banner</h3>
             </div>
-            <div className="banner-card">
+            {/* <div className="banner-card">
                 <img src={bx1} alt="" />
                 <h3>BalajiBet Official Channel</h3>
             </div>
@@ -79,7 +79,7 @@ export default function ActivityPage() {
             <div className="banner-card">
                 <img src={bx2} alt="" />
                 <h3>Youtube Creative Video</h3>
-            </div>
+            </div> */}
         </div>
        </>
     )
