@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-gaming/static/css/main.c5afbd75.css",
-    "main.js": "/online-gaming/static/js/main.5f26a339.js",
+    "main.css": "/online-gaming/static/css/main.a7085680.css",
+    "main.js": "/online-gaming/static/js/main.8a672b14.js",
     "static/media/landing-video-2.mp4": "/online-gaming/static/media/landing-video-2.80b3d3dfd3ae7c7c0340.mp4",
     "static/media/first-deposit-banner.png": "/online-gaming/static/media/first-deposit-banner.be1c4d4933583a52f8e7.png",
     "static/media/bonus-card-img.png": "/online-gaming/static/media/bonus-card-img.606797d284550daebaf0.png",
@@ -35,11 +35,11 @@
     "static/media/game3.webp": "/online-gaming/static/media/game3.7f1921681eea5ead81cd.webp",
     "static/media/game6.png": "/online-gaming/static/media/game6.120da78ef80277a0fdc2.png",
     "index.html": "/online-gaming/index.html",
-    "main.c5afbd75.css.map": "/online-gaming/static/css/main.c5afbd75.css.map",
-    "main.5f26a339.js.map": "/online-gaming/static/js/main.5f26a339.js.map"
+    "main.a7085680.css.map": "/online-gaming/static/css/main.a7085680.css.map",
+    "main.8a672b14.js.map": "/online-gaming/static/js/main.8a672b14.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5afbd75.css",
-    "static/js/main.5f26a339.js"
+    "static/css/main.a7085680.css",
+    "static/js/main.8a672b14.js"
   ]
 }
